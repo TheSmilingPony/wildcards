@@ -1,0 +1,1993 @@
+# Master character list intended for use with Prompt Post Processor
+# Basic label and prompt setup - All weights set to 1
+# Increase Weight to increase chance, set to 0 to cull
+# example "__Characters'female+unicorn'__" will pull a character that has the "female" AND "unicorn" label
+# example "__Characters'twilight'__" will simply pull twilight (would help to build short name list)
+# example "__Characters'pegasus,unicorn'__" will pull a character with either pegasus or unicorn label
+# example "__Characters'female+unicorn,male+pegasus'__ will pull a character that's either a female unicorn OR a male pegasus
+#
+characters:
+- content: (twilight sparkle \(mlp\):1.2), purple body, dark blue hair, purple hair, pink hair, two tone hair, unicorn, female
+  weight: 1
+  labels:
+  - twilight_sparkle
+  - ts
+  - female
+  - main_character
+  - mane6
+  - ponyville
+  - twilight
+  - unicorn
+  - popularity_a
+- content: (rainbow dash \(mlp\):1.2), blue body, rainbow hair, magenta eyes, pegasus, female
+  weight: 1
+  labels:
+  - rainbow_dash
+  - rd
+  - female
+  - main_character
+  - mane6
+  - pegasus
+  - ponyville
+  - rainbow
+  - popularity_a
+- content: (fluttershy \(mlp\):1.2), yellow body, pink hair, teal eyes, pegasus, female
+  weight: 1
+  labels:
+  - fluttershy
+  - fs
+  - female
+  - main_character
+  - mane6
+  - pegasus
+  - ponyville
+  - popularity_a
+- content: (applejack \(mlp\):1.2), orange body, blonde hair, green eyes, earth pony, female, hat
+  weight: 1
+  labels:
+  - applejack
+  - aj
+  - earth_pony
+  - female
+  - main_character
+  - mane6
+  - ponyville
+  - popularity_a
+- content: (rarity \(mlp\):1.2), white body, purple hair, blue eyes, unicorn, female
+  weight: 1
+  labels:
+  - rarity
+  - ry
+  - female
+  - main_character
+  - mane6
+  - ponyville
+  - unicorn
+  - popularity_a
+- content: (pinkie pie \(mlp\):1.2), pink body, pink hair, blue eyes, earth pony, female
+  weight: 1
+  labels:
+  - pinkie_pie
+  - pp
+  - earth_pony
+  - female
+  - main_character
+  - mane6
+  - pie_sister
+  - pinkie
+  - ponyville
+  - popularity_a
+- content: (pinkamena diane pie \(mlp\):1.2), (pinkamena \(mlp\):1.2), pink body, straight, pink hair, blue eyes, earth pony, female
+  weight: 1
+  labels:
+  - pinkamena
+  - pinkamena_diane_pie
+  - pdp
+  - earth_pony
+  - female
+  - main_character
+  - mane6
+  - pie_sister
+  - alternate_form
+  - ponyville
+  - popularity_b
+- content: (starlight glimmer \(mlp\):1.2), purple body, purple hair, teal hair, two tone hair, unicorn, female
+  weight: 1
+  labels:
+  - starlight_glimmer
+  - sg
+  - female
+  - secondary
+  - starlight
+  - unicorn
+  - popularity_a
+- content: (sunset shimmer \(mlp\):1.2), yellow body, red hair, yellow hair, two tone hair, unicorn, female
+  weight: 1
+  labels:
+  - sunset_shimmer
+  - sus
+  - female
+  - main_character
+  - sunset
+  - unicorn
+  - popularity_a
+- content: (trixie \(mlp\):1.2), blue body, white hair, purple eyes, unicorn, female
+  weight: 1
+  labels:
+  - trixie
+  - tx
+  - female
+  - secondary
+  - unicorn
+  - popularity_a
+- content: (vinyl scratch \(mlp\):1.2), white body, blue hair, teal hair, two tone hair, unicorn, female
+  weight: 1
+  labels:
+  - vinyl_scratch
+  - vinyl
+  - dj_pon-3
+  - dj
+  - background
+  - female
+  - unicorn
+  - ponyville
+  - popularity_a
+- content: (octavia melody \(mlp\):1.2), grey body, black hair, purple eyes, earth pony, female
+  weight: 1
+  labels:
+  - octavia_melody
+  - octavia
+  - background
+  - earth_pony
+  - female
+  - ponyville
+  - popularity_b
+- content: (cheerilee \(mlp\):1.2), purple body, pink hair, green eyes, earth pony, female
+  weight: 1
+  labels:
+  - cheerilee
+  - earth_pony
+  - female
+  - secondary
+  - ponyville
+  - popularity_b
+- content: (bon bon \(mlp\):1.2), cream body, blue hair, pink hair, two tone hair, blue eyes, earth pony, female
+  weight: 1
+  labels:
+  - bon_bon
+  - bon
+  - sweetie_drops 
+  - background
+  - earth_pony
+  - female
+  - ponyville
+  - popularity_b
+- content: (lyra heartstrings \(mlp\):1.2), mint body, cyan hair, white hair, yellow eyes, unicorn, female
+  weight: 1
+  labels:
+  - lyra_heartstrings
+  - background
+  - female
+  - lyra
+  - unicorn
+  - ponyville
+  - popularity_a
+- content: (maud pie \(mlp\):1.2), grey body, purple hair, blue eyes, earth pony, female
+  weight: 1
+  labels:
+  - maud_pie
+  - earth_pony
+  - female
+  - maud
+  - pie_sister
+  - secondary
+  - popularity_d
+- content: (marble pie \(mlp\):1.2), grey body, light grey hair, purple eyes, earth pony, female
+  weight: 1
+  labels:
+  - marble_pie
+  - earth_pony
+  - female
+  - marble
+  - secondary
+  - pie_sister
+  - popularity_b
+- content: (limestone pie \(mlp\):1.2), grey body, light grey hair, green eyes, earth pony, female
+  weight: 1
+  labels:
+  - limestone_pie
+  - earth_pony
+  - female
+  - limestone
+  - secondary
+  - pie_sister
+  - popularity_c
+- content: (princess celestia \(mlp\):1.2), white body, pink hair, green hair, blue hair, purple hair, alicorn, winged unicorn, female, regalia
+  weight: 1
+  labels:
+  - princess_celestia
+  - tia
+  - alicorn
+  - canterlot
+  - celestia
+  - female
+  - royalty
+  - secondary
+  - unicorn
+  - popularity_a
+- content: (princess luna \(mlp\):1.2), dark blue body, blue hair, cyan hair, alicorn, winged unicorn, female, regalia
+  weight: 1
+  labels:
+  - princess_luna
+  - alicorn
+  - canterlot
+  - female
+  - luna
+  - royalty
+  - secondary
+  - unicorn
+  - popularity_a
+- content: (princess cadance \(mlp\):1.2), pink body, purple hair, pink hair, yellow hair, purple eyes, alicorn, winged unicorn, female, regalia
+  weight: 1
+  labels:
+  - princess_cadance
+  - pcd
+  - alicorn
+  - cadance
+  - crystal_empire
+  - female
+  - royalty
+  - secondary
+  - unicorn
+  - mother
+  - popularity_a
+- content: (queen chrysalis \(mlp\):1.2), black body, teal hair, green eyes, changeling, female, holes
+  weight: 1
+  labels:
+  - queen_chrysalis
+  - qc
+  - antagonist
+  - changeling
+  - chrysalis
+  - female
+  - royalty
+  - popularity_a
+- content: (tempest shadow \(mlp\):1.2), dark purple body, magenta hair, teal eyes, broken horn, unicorn, female, armor
+  weight: 1
+  labels:
+  - tempest_shadow
+  - antagonist
+  - female
+  - secondary
+  - unicorn
+  - popularity_b
+- content: (zecora \(mlp\):1.2), grey body, black stripes, mohawk, blue eyes, zebra, female, jewelry
+  weight: 1
+  labels:
+  - zecora
+  - za
+  - female
+  - secondary
+  - zebra
+  - ponyville
+  - popularity_b
+- content: (photo finish \(mlp\):1.2), white body, light blue hair, blunt cut, sunglass, purple eyes, earth pony, female
+  weight: 1
+  labels:
+  - photo_finish
+  - earth_pony
+  - female
+  - secondary
+  - canterlot
+  - popularity_d
+- content: (derpy hooves \(mlp\):1.2), grey body, blonde hair, yellow hair, yellow eyes, pegasus, female, wall eyes
+  weight: 1
+  labels:
+  - derpy_hooves
+  - dh
+  - background
+  - derpy
+  - female
+  - pegasus
+  - ponyville
+  - popularity_a
+- content: (spitfire \(mlp\):1.2), orange body, yellow hair, orange eyes, pegasus, female, uniform, wonderbolt
+  weight: 1
+  labels:
+  - spitfire
+  - sf
+  - female
+  - pegasus
+  - secondary
+  - wonderbolt
+  - popularity_b
+- content: (scootaloo \(mlp\):1.2), orange body, purple hair, purple eyes, pegasus, female
+  weight: 1
+  labels:
+  - scootaloo
+  - sl
+  - cmc
+  - female
+  - main_character
+  - pegasus
+  - ponyville
+  - popularity_a
+- content: (apple bloom \(mlp\):1.2), yellow body, red hair, orange eyes, earth pony, female, bow
+  weight: 1
+  labels:
+  - apple_bloom
+  - ab
+  - cmc
+  - earth_pony
+  - female
+  - main_character
+  - apple_family
+  - ponyville
+  - popularity_a
+- content: (sweetie belle \(mlp\):1.2), white body, pink hair, purple hair, two tone hair, green eyes, unicorn, female
+  weight: 1
+  labels:
+  - sweetie_belle
+  - sb
+  - cmc
+  - female
+  - main_character
+  - ponyville
+  - unicorn
+  - popularity_a
+- content: (moondancer \(mlp\):1.2), cream body, red hair, purple eyes, unicorn, female, glasses, bun
+  weight: 1
+  labels:
+  - moondancer
+  - female
+  - ponyville
+  - secondary
+  - unicorn
+  - popularity_c
+- content: (sassy saddles \(mlp\):1.2), blue body, orange hair, blue eyes, unicorn, female, uniform
+  weight: 1
+  labels:
+  - sassy_saddles
+  - female
+  - ponyville
+  - secondary
+  - unicorn
+  - canterlot
+  - popularity_d
+- content: (mane-iac \(mlp\):1.2), green body, purple hair, green eyes, earth pony, female
+  weight: 1
+  labels:
+  - antagonist
+  - earth_pony
+  - female
+  - maneiac
+  - secondary
+  - popularity_d
+- content: (cozy glow \(mlp\):1.2), light pink body, blue hair, blue eyes, pegasus, female
+  weight: 1
+  labels:
+  - cozy_glow
+  - antagonist
+  - female
+  - pegasus
+  - ponyville
+  - secondary
+  - popularity_b
+- content: (princess ember \(mlp\):1.2), blue body, cyan hair, red eyes, dragon, female, horns
+  weight: 1
+  labels:
+  - princes_ember
+  - ember
+  - dragon
+  - female
+  - ponyville
+  - secondary
+  - popularity_b
+- content: (silverstream \(mlp\):1.2), pink body, blue hair, purple eyes, hippogriff, female, feathers
+  weight: 1
+  labels:
+  - silverstream
+  - female
+  - hippogriff
+  - main_character
+  - ponyville
+  - student_six
+  - popularity_b
+- content: (smolder \(mlp\):1.2), orange body, purple hair, blue eyes, dragon, female
+  weight: 1
+  labels:
+  - smolder
+  - dragon
+  - female
+  - main_character
+  - ponyville
+  - student_six
+  - popularity_b
+- content: (yona \(mlp\):1.2), brown body, dark brown hair, blue eyes, yak, female, horns
+  weight: 1
+  labels:
+  - yona
+  - female
+  - main_character
+  - ponyville
+  - student_six
+  - yak
+  - popularity_c
+- content: (autumn blaze \(mlp\):1.2), orange body, red hair, cyan eyes, kirin, female, scales
+  weight: 1
+  labels:
+  - autumn_blaze
+  - female
+  - kirin
+  - ponyville
+  - secondary
+  - popularity_c
+- content: (princess flurry heart \(mlp\):1.2), white body, pink hair, blue hair, purple hair, multi-colored hair, blue eyes, alicorn, winged unicorn, female
+  weight: 1
+  labels:
+  - alicorn
+  - crystal_empire
+  - female
+  - flurry_heart
+  - royalty
+  - secondary
+  - unicorn
+  - popularity_b
+- content: (granny smith \(mlp\):1.2), green body, white hair, orange eyes, earth pony, female
+  weight: 1
+  labels:
+  - granny_smith
+  - apple_family
+  - earth_pony
+  - female
+  - ponyville
+  - secondary
+  - popularity_c
+- content: (daring do \(mlp\):1.2), tan body, grey hair, pink eyes, pegasus, female, hat, adventure outfit
+  weight: 1
+  labels:
+  - daring_do
+  - dd
+  - female
+  - pegasus
+  - secondary
+  - popularity_c
+- content: (nightmare moon \(mlp\):1.2), black body, blue ethereal hair, teal eyes, alicorn, winged unicorn, female, armor, regalia
+  weight: 1
+  labels:
+  - nightmare_moon
+  - nmm
+  - alicorn
+  - alternate_form
+  - antagonist
+  - female
+  - secondary
+  - unicorn
+  - popularity_b
+- content: (daybreaker \(mlp\):1.2), white body, fiery hair, purple eyes, alicorn, winged unicorn, female, armor, regalia
+  weight: 1
+  labels:
+  - daybreaker
+  - alicorn
+  - alternate_form
+  - antagonist
+  - female
+  - secondary
+  - unicorn
+  - popularity_c
+- content: (gilda \(mlp\):1.2), brown body, white head feathers, yellow eyes, griffon, female, feathers
+  weight: 1
+  labels:
+  - gilda
+  - antagonist
+  - female
+  - griffon
+  - secondary
+  - popularity_b
+- content: (gabby \(mlp\):1.2), grey body, white head feathers, yellow eyes, griffon, female, feathers
+  weight: 1
+  labels:
+  - gabby
+  - female
+  - griffon
+  - secondary
+  - popularity_c
+- content: (diamond tiara \(mlp\):1.2), pink body, purple hair, light purple eyes, earth pony, female, tiara
+  weight: 1
+  labels:
+  - diamond_tiara
+  - dt
+  - earth_pony
+  - female
+  - ponyville
+  - secondary
+  - popularity_b
+- content: (silver spoon \(mlp\):1.2), grey body, grey hair, purple eyes, earth pony, female, glasses
+  weight: 1
+  labels:
+  - silver_spoon
+  - ss
+  - earth_pony
+  - female
+  - ponyville
+  - secondary
+  - popularity_c
+- content: (ocellus \(mlp\):1.2), light blue body, transparent wings, blue eyes, changeling, female
+  weight: 1
+  labels:
+  - ocellus
+  - changeling
+  - female
+  - main_character
+  - ponyville
+  - student_six
+  - popularity_c
+- content: (minuette \(mlp\):1.2), blue body, dark blue hair, light blue hair, two tone hair, yellow eyes, unicorn, female
+  weight: 1
+  labels:
+  - minuette
+  - colgate
+  - background
+  - female
+  - ponyville
+  - unicorn
+  - popularity_c
+- content: (coco pommel \(mlp\):1.2), cream body, light blue hair, light blue eyes, earth pony, female, fashion
+  weight: 1
+  labels:
+  - coco_pommel
+  - coco
+  - earth_pony
+  - female
+  - secondary
+  - popularity_c
+- content: (inky rose \(mlp\):1.2), grey body, black hair, purple eyes, pegasus, female, goth, fashion
+  weight: 1
+  labels:
+  - female
+  - inky_rose
+  - pegasus
+  - ponyville
+  - secondary
+  - popularity_d
+- content: (roseluck \(mlp\):1.2), cream body, red hair, green eyes, earth pony, female
+  weight: 1
+  labels:
+  - roseluck
+  - rose
+  - background
+  - earth_pony
+  - female
+  - flower_trio
+  - ponyville
+  - popularity_c
+- content: (lily valley \(mlp\):1.2), pink body, blonde hair, yellow eyes, earth pony, flower in hair, female
+  weight: 1
+  labels:
+  - lily_valley
+  - background
+  - earth_pony
+  - female
+  - flower_trio
+  - ponyville
+  - popularity_d
+- content: (flower wishes \(mlp\):1.2), pink body, green hair, green eyes, earth pony, female
+  weight: 1
+  labels:
+  - daisy
+  - flower wishes
+  - background
+  - earth_pony
+  - female
+  - flower_trio
+  - ponyville
+  - popularity_c
+- content: (adagio dazzle \(mlp\):1.2), orange body, orange hair, purple eyes, female, pendant
+  weight: 1
+  labels:
+  - adagio_dazzle
+  - adagio
+  - antagonist
+  - female
+  - ponyville
+  - secondary
+  - siren
+  - popularity_b
+- content: (aria blaze \(mlp\):1.2), purple body, purple hair, teal hair, two tone hair, purple eyes, female, pendant
+  weight: 1
+  labels:
+  - aria_blaze
+  - aria
+  - antagonist
+  - female
+  - ponyville
+  - secondary
+  - siren
+  - popularity_b
+- content: (sonata dusk \(mlp\):1.2), blue body, blue hair, dark blue hair, two tone hair, pink eyes, female, pendant
+  weight: 1
+  labels:
+  - sonata_dusk
+  - sonata
+  - antagonist
+  - female
+  - ponyville
+  - secondary
+  - siren
+  - popularity_b
+- content: (spike \(mlp\):1.2), purple body, green spikes, green eyes, dragon, male
+  weight: 1
+  labels:
+  - spike
+  - dragon
+  - main_character
+  - male
+  - popularity_a
+- content: (big macintosh \(mlp\):1.2), red body, orange hair, green eyes, earth pony, male
+  weight: 1
+  labels:
+  - big_macintosh
+  - big_mac
+  - bm
+  - earth_pony
+  - male
+  - secondary
+  - popularity_a
+- content: (shining armor \(mlp\):1.2), white body, blue hair, light blue hair, two tone hair, blue eyes, unicorn, male, armor
+  weight: 1
+  labels:
+  - shining_armor
+  - sa
+  - crystal_empire
+  - male
+  - royalty
+  - secondary
+  - unicorn
+  - popularity_b
+- content: (braeburn \(mlp\):1.2), yellow body, orange hair, green eyes, earth pony, male, hat
+  weight: 1
+  labels:
+  - braeburn
+  - bn
+  - earth_pony
+  - male
+  - secondary
+  - popularity_c
+- content: (discord \(mlp\):1.2), draconequus, brown body, yellow eyes, male, horns, mismatched
+  weight: 1
+  labels:
+  - discord
+  - dc
+  - antagonist
+  - draconequus
+  - male
+  - secondary
+  - popularity_a
+- content: (king sombra \(mlp\):1.2), grey body, black hair, red horn, green eyes, unicorn, male, armor
+  weight: 1
+  labels:
+  - king_sombra
+  - antagonist
+  - male
+  - secondary
+  - sombra
+  - unicorn
+  - popularity_b
+- content: (thorax \(mlp\):1.2), green body, blue wings, blue eyes, changeling, male
+  weight: 1
+  labels:
+  - thorax
+  - changeling
+  - male
+  - secondary
+  - popularity_c
+- content: (pharynx \(mlp\):1.2), dark green body, blue wings, red eyes, changeling, male
+  weight: 1
+  labels:
+  - pharynx
+  - changeling
+  - male
+  - secondary
+  - popularity_d
+- content: (soarin \(mlp\):1.2), blue body, dark blue hair, green eyes, pegasus, male, uniform, wonderbolt
+  weight: 1
+  labels:
+  - soarin
+  - sn
+  - male
+  - pegasus
+  - ponyville
+  - secondary
+  - wonderbolt
+  - popularity_b
+- content: (sunburst \(mlp\):1.2), orange body, red hair, blue eyes, unicorn, male, glasses, cape
+  weight: 1
+  labels:
+  - sunburst
+  - male
+  - secondary
+  - unicorn
+  - popularity_b
+- content: (cheese sandwich \(mlp\):1.2), yellow body, brown hair, green eyes, earth pony, male
+  weight: 1
+  labels:
+  - cheese_sandwich
+  - earth_pony
+  - male
+  - ponyville
+  - secondary
+  - popularity_c
+- content: (flim \(mlp\):1.2), yellow body, red hair, green eyes, unicorn, male, hat
+  weight: 1
+  labels:
+  - flim
+  - antagonist
+  - male
+  - secondary
+  - unicorn
+  - popularity_d
+- content: (flam \(mlp\):1.2), yellow body, red hair, green eyes, unicorn, male, mustache, hat
+  weight: 1
+  labels:
+  - flam
+  - antagonist
+  - male
+  - secondary
+  - unicorn
+  - popularity_d
+- content: (thunderlane \(mlp\):1.2), grey body, mohawk, yellow eyes, pegasus, male
+  weight: 1
+  labels:
+  - thunderlane
+  - male
+  - pegasus
+  - ponyville
+  - secondary
+  - popularity_c
+- content: (snails \(mlp\):1.2), yellow body, teal hair, unicorn, male
+  weight: 1
+  labels:
+  - snails
+  - male
+  - ponyville
+  - secondary
+  - unicorn
+  - popularity_c
+- content: (snips \(mlp\):1.2), blue body, orange hair, unicorn, male
+  weight: 1
+  labels:
+  - snips
+  - male
+  - ponyville
+  - secondary
+  - unicorn
+  - popularity_c
+- content: (capper \(mlp\):1.2), grey body, blue hair, yellow eyes, feline, male, furry
+  weight: 1
+  labels:
+  - capper
+  - feline
+  - male
+  - ponyville
+  - secondary
+  - popularity_d
+- content: (sandbar \(mlp\):1.2), light green body, brown hair, green eyes, earth pony, male
+  weight: 1
+  labels:
+  - sandbar
+  - earth_pony
+  - main_character
+  - male
+  - ponyville
+  - student_six
+  - popularity_c
+- content: (doctor whooves \(mlp\):1.2), brown body, brown hair, blue eyes, earth pony, male
+  weight: 1
+  labels:
+  - doctor_whooves
+  - dw
+  - background
+  - earth_pony
+  - male
+  - ponyville
+  - time_turner
+  - popularity_b
+- content: (zephyr breeze \(mlp\):1.2), teal body, blonde hair, purple eyes, pegasus, male
+  weight: 1
+  labels:
+  - zephyr_breeze
+  - male
+  - pegasus
+  - secondary
+  - popularity_d
+- content: (pipsqueak \(mlp\):1.2), brown body, white spots, brown hair, brown eyes, earth pony, male
+  weight: 1
+  labels:
+  - pipsqueak
+  - background
+  - earth_pony
+  - male
+  - ponyville
+  - popularity_c
+- content: (bulk biceps \(mlp\):1.2), white body, blonde hair, yellow eyes, pegasus, male, muscular, muscular male, small wings
+  weight: 1
+  labels:
+  - bulk_biceps
+  - roid_rage
+  - snow_flake
+  - background
+  - male
+  - pegasus
+  - ponyville
+  - popularity_c
+- content: (fancy pants \(mlp\):1.2), white body, blue hair, blue eyes, unicorn, male, monocle, suit
+  weight: 1
+  labels:
+  - fancy_pants
+  - male
+  - secondary
+  - unicorn
+  - popularity_d
+- content: (cranky doodle donkey \(mlp\):1.2), grey body, black hair, donkey, male
+  weight: 1
+  labels:
+  - cranky_doodle
+  - donkey
+  - male
+  - secondary
+  - popularity_d
+- content: (gallus \(mlp\):1.2), blue body, orange head feathers, blue eyes, griffon, male, feathered wings
+  weight: 1
+  labels:
+  - gallus
+  - griffon
+  - main_character
+  - male
+  - ponyville
+  - student_six
+  - popularity_b
+- content: (star swirl the bearded \(mlp\):1.2), grey body, grey beard, grey hat, blue eyes, unicorn, male, wizard robe
+  weight: 1
+  labels:
+  - starswirl
+  - star_swirl
+  - legendary
+  - male
+  - pillar
+  - secondary
+  - unicorn
+  - popularity_d
+- content: (party favor \(mlp\):1.2), blue body, dark blue hair, green eyes, earth pony, male, balloon cutie mark
+  weight: 1
+  labels:
+  - party_favor
+  - earth_pony
+  - male
+  - ponyville
+  - secondary
+  - popularity_d
+- content: (trouble shoes \(mlp\):1.2), brown body, black hair, green eyes, earth pony, male, large male
+  weight: 1
+  labels:
+  - trouble_shoes
+  - earth_pony
+  - male
+  - minor
+  - secondary
+  - popularity_d
+- content: (lotus blossom \(mlp\):1.2), blue body, pink hair, blue eyes, earth pony, female
+  weight: 1
+  labels:
+  - lotus_blossom
+  - background
+  - earth_pony
+  - female
+  - ponyville
+  - popularity_c
+- content: (aloe \(mlp\):1.2), pink body, blue hair, blue eyes, earth pony, female
+  weight: 1
+  labels:
+  - aloe
+  - background
+  - earth_pony
+  - female
+  - ponyville
+  - popularity_c
+- content: (suri polomare \(mlp\):1.2), pink body, purple hair, earth pony, female
+  weight: 1
+  labels:
+  - suri_polomare
+  - antagonist
+  - earth_pony
+  - female
+  - manehattan
+  - secondary
+  - popularity_d
+- content: (sugar belle \(mlp\):1.2), pink body, magenta hair, unicorn, female
+  weight: 1
+  labels:
+  - sugar_belle
+  - female
+  - secondary
+  - starlight_village
+  - unicorn
+  - popularity_b
+- content: (tree hugger \(mlp\):1.2), green body, red dreadlocks, earth pony, female
+  weight: 1
+  labels:
+  - tree_hugger
+  - earth_pony
+  - female
+  - ponyville
+  - secondary
+  - popularity_b
+- content: (cup cake \(mlp\):1.2), blue body, pink hair, earth pony, female
+  weight: 1
+  labels:
+  - cup_cake
+  - earth_pony
+  - female
+  - mrs_cake
+  - ponyville
+  - secondary
+  - popularity_c
+- content: (screwball \(mlp\):1.2), purple body, swirly eyes, earth pony, female
+  weight: 1
+  labels:
+  - screwball
+  - background
+  - earth_pony
+  - female
+  - popularity_d
+- content: (mayor mare \(mlp\):1.2), tan body, grey hair, earth pony, female, glasses
+  weight: 1
+  labels:
+  - mayor_mare
+  - earth_pony
+  - female
+  - ponyville
+  - secondary
+  - popularity_c
+- content: (radiant hope \(mlp\):1.2), lavender body, blue hair, unicorn, female
+  weight: 1
+  labels:
+  - crystal_empire
+  - female
+  - radiant_hope
+  - secondary
+  - unicorn
+  - popularity_d
+- content: (prince blueblood \(mlp\):1.2), white body, blonde hair, unicorn, male
+  weight: 1
+  labels:
+  - prince_blueblood
+  - canterlot
+  - male
+  - royalty
+  - secondary
+  - unicorn
+  - popularity_c
+- content: (carrot cake \(mlp\):1.2), yellow body, orange hair, earth pony, male
+  weight: 1
+  labels:
+  - carrot_cake
+  - earth_pony
+  - male
+  - mr_cake
+  - ponyville
+  - secondary
+  - popularity_d
+- content: (quibble pants \(mlp\):1.2), tan body, black and grey hair, earth pony, male
+  weight: 1
+  labels:
+  - quibble_pants
+  - earth_pony
+  - male
+  - ponyville
+  - secondary
+  - popularity_d
+- content: (rockhoof \(mlp\):1.2), blue body, orange hair, earth pony, male
+  weight: 1
+  labels:
+  - rockhoof
+  - earth_pony
+  - male
+  - pillar
+  - secondary
+  - popularity_d
+- content: (mudbriar \(mlp\):1.2), grey body, brown hair, earth pony, male
+  weight: 1
+  labels:
+  - mudbriar
+  - earth_pony
+  - male
+  - ponyville
+  - secondary
+  - popularity_d
+- content: (flash sentry \(mlp\):1.2), orange body, blue hair, pegasus, male
+  weight: 1
+  labels:
+  - flash_sentry
+  - background
+  - crystal_empire
+  - male
+  - pegasus
+  - popularity_b
+- content: (double diamond \(mlp\):1.2), white body, light blue hair, earth pony, male
+  weight: 1
+  labels:
+  - double_diamond
+  - earth_pony
+  - male
+  - secondary
+  - starlight_village
+  - popularity_d
+- content: (grand pear \(mlp\):1.2), light yellow body, white hair, earth pony, male
+  weight: 1
+  labels:
+  - apple_family
+  - earth_pony
+  - grand_pear
+  - male
+  - ponyville
+  - secondary
+  - popularity_d
+- content: (garble \(mlp\):1.2), red body, orange wings, dragon, male
+  weight: 1
+  labels:
+  - garble
+  - antagonist
+  - dragon
+  - male
+  - secondary
+  - popularity_d
+- content: (sci-twi \(mlp\):1.2), (twilight sparkle \(mlp\):1.2), purple body, dark blue hair, purple hair, pink hair, two tone hair, unicorn, glasses, female
+  weight: 1
+  labels:
+  - sci-twi
+  - female
+  - unicorn
+  - eqg
+  - main_character
+  - popularity_a
+- content: (sunny starscout \(mlp\):1.2), earth pony, orange body, purple hair, teal eyes, female
+  weight: 1
+  labels:
+  - sunnystarscout
+  - sunny
+  - female
+  - earth_pony
+  - g5
+  - main_character
+  - popularity_b
+- content: (izzy moonbow \(mlp\):1.2), purple body, teal hair, magenta eyes, unicorn, female
+  weight: 1
+  labels:
+  - izzy_moonbow
+  - izzy
+  - female
+  - unicorn
+  - main_character
+  - g5
+  - popularity_b
+- content: (pipp petals \(mlp\):1.2), pink body, purple hair, green eyes, white wings, pegasus, female
+  weight: 1
+  labels:
+  - pipp_petals
+  - pipp
+  - female
+  - pegasus
+  - g5
+  - main_character
+  - popularity_b
+- content: (zipp storm \(mlp\):1.2), white body, two tone hair, red hair, teal hair, teal eyes, pegasus, female
+  weight: 1
+  labels:
+  - zipp_storm
+  - zipp
+  - pegasus
+  - female
+  - g5
+  - main_character
+  - popularity_b
+- content: (hitch trailblazer \(mlp\):1.2), orange body, green hair, brown eyes, earth pony, male
+  weight: 1
+  labels:
+  - hitch_trailblazer
+  - hitch
+  - earth_pony
+  - male
+  - g5
+  - main_character
+  - popularity_b
+- content: (misty brightdawn \(mlp\):1.2), blue body, orange hair, green hair, unicorn, female
+  weight: 1
+  labels:
+  - misty_brightdawn
+  - misty
+  - unicorn
+  - female
+  - g5
+  - main_character
+  - popularity_b
+- content: (berry punch \(mlp\):1.2), purple body, purple hair, green eyes, earth pony, female
+  weight: 1
+  labels:
+  - berry_punch
+  - berryshine
+  - earth_pony
+  - female
+  - background
+  - popularity_b
+- content: (babs seed \(mlp\):1.2), tan body, magenta hair, green eyes, earth pony, female
+  weight: 1
+  labels:
+  - babs_seed
+  - babs
+  - earth_pony
+  - female
+  - apple_family
+  - popularity_c
+- content: (golden harvest \(mlp\):1.2), (carrot top \(mlp\):1.2), yellow body, orange hair, green eyes, earth pony, female
+  weight: 1
+  labels:
+  - golden_harvest
+  - carrot_top
+  - earth_pony
+  - female
+  - background
+  - popularity_c
+- content: (lord tirek \(mlp\):1.2), red body, white hair, centaur, horns, muscular, muscular male, male, 
+  weight: 1
+  labels:
+  - lord_tirek
+  - tirek
+  - centaur
+  - male
+  - antagonist
+  - popularity_c
+- content: (glitter drops \(mlp\):1.2), green body, white hair, purple eyes, unicorn, female
+  weight: 1
+  labels:
+  - glitter_drops
+  - unicorn
+  - female
+  - idw
+  - popularity_c
+- content: (twilight velvet \(mlp\):1.2), white body, purple hair, white hair, two tone hair, teal eyes, unicorn, female 
+  weight: 1
+  labels:
+  - twilight_velvet
+  - unicorn
+  - female
+  - sparkle_family
+  - popularity_c
+- content: (lightning dust \(mlp\):1.2), green body, orange hair, orange eyes, pegasus, female
+  weight: 1
+  labels:
+  - lightning_dust
+  - ld
+  - pegasus
+  - female
+  - cloudsdale
+  - antagonist
+  - popularity_c
+- content: (spring rain \(mlp\):1.2), blue body, blue hair, magenta eyes, unicorn, female
+  weight: 1
+  labels:
+  - spring_rain
+  - unicorn
+  - female
+  - idw
+  - popularity_c
+- content: (button mash \(mlp\):1.2), brown body, orange hair, orange eyes, earth pony, male
+  weight: 1
+  labels:
+  - button_mash
+  - earth_pony
+  - male
+  - ponyville
+  - background
+  - popularity_c
+- content: (dinky hooves \(mlp\):1.2), pink body, blonde hair, yellow hair, yellow eyes, unicorn, female
+  weight: 1
+  labels:
+  - dinky_hooves
+  - dinky
+  - unicorn
+  - female
+  - ponyville
+  - background
+  - popularity_c
+- content: (fleur-de-lis \(mlp\):1.2), (fleur de lis \(mlp\):1.2), white body, light pink body, pink hair, purple eyes, skinny, unicorn, female
+  weight: 1
+  labels:
+  - fleur-de-lis
+  - fleur_de_lis
+  - fleur
+  - unicorn
+  - female
+  - canterlot
+  - popularity_c
+- content: (rumble \(mlp\):1.2), grey body, black hair, purple eyes, pegasus, male
+  weight: 1
+  labels:
+  - rumble
+  - pegasus
+  - male
+  - ponyville
+  - background
+  - popularity_c
+- content: (nurse redheart \(mlp\):1.2), white body, pink hair, blue eyes, nurse, nurse hat, earth pony, female
+  weight: 1
+  labels:
+  - nurse_redheart
+  - earth_pony
+  - female
+  - nurse
+  - ponyville
+  - popularity_c
+- content: (cloudchaser \(mlp\):1.2), purple body, white hair, magenta eyes, pegasus, female
+  weight: 1
+  labels:
+  - cloudchaser
+  - pegasus
+  - female
+  - ponyville
+  - popularity_c
+- content: (sour sweet \(mlp\):1.2), cream body, purple eyes, freckles, female
+  weight: 1
+  labels:
+  - sour_sweet
+  - female
+  - eqg
+  - background
+  - popularity_c
+- content: (pear butter \(mlp\):1.2), orange body, orange hair, green eyes, flower in hair, earth pony, female
+  weight: 1
+  labels:
+  - pear_butter
+  - earth_pony
+  - female
+  - apple_family
+  - ponyville
+  - popularity_c
+- content: (sugarcoat \(mlp\):1.2), light purple body, white hair, magenta eyes, glasses, female
+  weight: 1
+  labels:
+  - sugarcoat
+  - female
+  - eqg
+  - background
+  - popularity_c
+- content: (lemon zest \(mlp\):1.2), pink body, green hair, yellow eyes, female
+  weight: 1
+  labels:
+  - lemon_zest
+  - female
+  - eqg
+  - background
+  - popularity_c
+- content: (coloratura \(mlp\):1.2), white body, teal eyes, purple hair, earth pony, female
+  weight: 1
+  labels:
+  - coloratura
+  - rara
+  - earth_pony
+  - female
+  - popularity_c
+- content: (countess coloratura \(mlp\):1.2), white body, teal eyes, white hair, pink hair, two tone hair, earth pony, long eyelashes, eyeshadow, veil, female
+  weight: 1
+  labels:
+  - countess_coloratura
+  - earth_pony
+  - female
+  - popularity_d
+- content: (opaline arcana \(mlp\):1.2), purple body, white hair, blue eyes, alicorn, winged unicorn, female
+  weight: 1
+  labels:
+  - opaline_arcana
+  - opaline
+  - female
+  - alicorn
+  - antagonist
+  - g5
+  - popularity_c
+- content: (nightmare rarity \(mlp\):1.2), black body, dark purple body, purple hair, white hair, two tone hair, blue eyes, unicorn, female
+  weight: 1
+  labels:
+  - nightmare_rarity
+  - nmr
+  - unicorn
+  - female
+  - antagonist
+  - alternate_form
+  - popularity_c
+- content: (flitter \(mlp\):1.2), light purple body, light green hair, purple eyes, hair bow, pegasus, female
+  weight: 1
+  labels:
+  - flitter
+  - pegasus
+  - female
+  - ponyville
+  - popularity_c
+- content: (wallflower blush \(mlp\):1.2), green body, green hair, brown eyes, freckles, female
+  weight: 1
+  labels:
+  - wallflower_blush
+  - female
+  - eqg
+  - secondary
+  - popularity_c
+- content: (sunny flare \(mlp\):1.2), light green body, purple hair, magenta eyes, female
+  weight: 1
+  labels:
+  - sunny_flare
+  - female
+  - eqg
+  - background
+  - popularity_c
+- content: (amethyst star \(mlp\):1.2), (sparkler \(mlp\):1.2), purple body, purple hair, two tone hair, purple eyes, unicorn, female
+  weight: 1
+  labels:
+  - amethyst_star
+  - sparkler
+  - unicorn
+  - female
+  - ponyville
+  - background
+  - popularity_c
+- content: (twist \(mlp\):1.2), cream body, red hair, pink eyes, glasses, earth pony, female
+  weight: 1
+  labels:
+  - twist
+  - earth pony
+  - female
+  - ponyville
+  - popularity_d
+- content: (surprise \(mlp\):1.2), white body, yellow hair, purple eyes, pegasus, female
+  weight: 1
+  labels:
+  - surprise
+  - pegasus
+  - female
+  - wonderbolt
+  - popularity_d
+- content: (pound cake \(mlp\):1.2), cream body, brown hair, brown eyes, pegasus, male
+  weight: 1
+  labels:
+  - pound_cake
+  - pegasus
+  - ponyville
+  - popularity_d
+- content: (windy whistles \(mlp\):1.2), light blue body, orange hair, magenta eyes, pegasus, female
+  weight: 1
+  labels:
+  - windy_whistles
+  - pegasus
+  - female
+  - mother
+  - cloudsdale
+  - popularity_d
+- content: (night light \(mlp\):1.2), blue body, blue hair, yellow eyes, unicorn, male
+  weight: 1
+  labels:
+  - night_light
+  - unicorn
+  - male
+  - sparkle_family
+  - father
+  - canterlot
+  - popularity_d
+- content: (caramel \(mlp\):1.2), yellow body, brown hair, blue eyes, earth pony, male
+  weight: 1
+  labels:
+  - caramel
+  - earth_pony
+  - male
+  - ponyville
+  - background
+  - popularity_d
+- content: (indigo zap \(mlp\):1.2), cream body, blue hir, teal hair, two tone hair, orange eyes, female
+  weight: 1
+  labels:
+  - indigo_zap
+  - female
+  - eqg
+  - background
+  - popularity_d
+- content: (twinkleshine \(mlp\):1.2), white body, pink hair, teal eyes, unicorn, female
+  weight: 1
+  labels:
+  - twinkleshine
+  - unicorn
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (sunshower raindrops \(mlp\):1.2), (raindrops \(mlp\):1.2), yellow body, light green hair, aquamarine eyes, pegasus, female
+  weight: 1
+  labels:
+  - sunshower_raindrops
+  - raindrops
+  - pegasus
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (pumpkin cake \(mlp\):1.2), yellow body, orange body, blue eyes, unicorn, female
+  weight: 1
+  labels:
+  - pumpkin_cake
+  - unicorn
+  - female
+  - ponyville
+  - popularity_d
+- content: (sprout cloverleaf \(mlp\):1.2), red eyes, yellow hair, green eyes, earth pony, male
+  weight: 1
+  labels:
+  - sprout_cloverleaf
+  - sprout
+  - earth_pony
+  - male
+  - g5
+  - antagonist
+  - popularity_d
+- content: (ms. harshwhinny \(mlp\):1.2), tan body, yellow hair, blonde hair, blue eyes, earth pony, female 
+  weight: 1
+  labels:
+  - ms_harshwhinny
+  - harshwhinny
+  - earth_pony
+  - female
+  - secondary
+  - popularity_d
+- content: (lemon hearts \(mlp\):1.2), yellow body, blue hair, magenta eyes, unicorn, female
+  weight: 1
+  labels:
+  - lemon_hearts
+  - unicorn
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (cherry berry \(mlp\):1.2), pink body, yellow hair, purple eyes, earth pony, female
+  weight: 1
+  labels:
+  - cherry_berry
+  - earth_pony
+  - ponyville
+  - background
+  - popularity_d
+- content: (fleetfoot \(mlp\):1.2), teal body, white hair, magenta eyes, pegasus, female
+  weight: 1
+  labels:
+  - fleetfoot
+  - pegasus
+  - female
+  - wonderbolt
+  - popularity_d
+- content: (cloud kicker \(mlp\):1.2), purple body, yellow hair, blonde hair, purple eyes, pegasus, female
+  weight: 1
+  labels:
+  - cloud_kicker
+  - pegasus
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (princess skystar \(mlp\):1.2), yellow body, blue hair, blue eyes, hippogriff, female
+  weight: 1
+  labels:
+  - princess_skystar
+  - skystar
+  - hippogriff
+  - female
+  - popularity_d
+- content: (somnambula \(mlp\):1.2), pink body, teal hair, purple eyes, pegasus, female
+  weight: 1
+  labels:
+  - somnambula
+  - pegasus
+  - female
+  - pillar
+  - secondary
+  - popularity_d
+- content: (linky \(mlp\):1.2), (shoeshine \(mlp\):1.2), light blue body, light pink hair, magenta eyes, earth pony, female
+  weight: 1
+  labels:
+  - linky
+  - shoeshine
+  - earth_pony
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (timber spruce \(mlp\):1.2), tan body, green hair, green eyes, male
+  weight: 1
+  labels:
+  - timber_spruce
+  - male
+  - eqg
+  - secondary
+  - popularity_d
+- content: (luster dawn \(mlp\):1.2), pink body, yellow hair, orange hair, two tone hair, yellow eyes, unicorn, female
+  weight: 1
+  labels:
+  - luster_dawn
+  - unicorn
+  - female
+  - popularity_d
+- content: (posey bloom \(mlp\):1.2), yellow body, pink hair, green hair, earth pony, female
+  weight: 1
+  labels:
+  - posey_bloom
+  - earth_pony
+  - female
+  - g5
+  - secondary
+  - popularity_d
+- content: (sea swirl \(mlp\):1.2), (seafoam \(mlp\):1.2), light purple body, blue hair, two tone hair, magenta eyes, unicorn, female
+  weight: 1
+  labels:
+  - seaswirl
+  - seafoam
+  - unicorn
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (jazz hooves \(mlp\):1.2), green body, orange hair, purple hair, two tone hair, blue eyes, earth pony, female
+  weight: 1
+  labels:
+  - jazz_hooves
+  - earth pony
+  - female
+  - g5
+  - secondary
+  - popularity_d
+- content: (queen haven \(mlp\):1.2), light purple body, light purple hair, purple eyes, pegasus, female 
+  weight: 1
+  labels:
+  - queen_haven
+  - pegasus
+  - female
+  - mother
+  - g5
+  - popularity_d
+- content: (gloriosa daisy \(mlp\):1.2), pink body, red hair, green eyes, floral head wreath, freckles, female
+  weight: 1
+  labels:
+  - gloriosa_daisy
+  - female
+  - eqg
+  - antagonist
+  - popularity_d
+- content: (queen novo \(mlp\):1.2), white body, purple hair, magenta eyes, hippogriff, female
+  weight: 1
+  labels:
+  - queen_novo
+  - hippogriff
+  - female
+  - popularity_d
+- content: (posey shy \(mlp\):1.2), cream body, red hair, magenta eyes, glasses, pegasus, female
+  weight: 1
+  labels:
+  - posey_shy
+  - pegasus
+  - female
+  - mother
+  - cloudsdale
+  - popularity_d
+- content: (saffron masala \(mlp\):1.2), brown body, purple hair, purple eyes, unicorn, female
+  weight: 1
+  labels:
+  - saffron_masala
+  - saffron
+  - unicorn
+  - female
+  - canterlot
+  - secondary
+  - popularity_d
+- content: (bright mac \(mlp\):1.2), light orange body, red hair, green eyes, earth pony, male
+  weight: 1
+  labels:
+  - bright_mac
+  - earth_pony
+  - male
+  - apple_family
+  - father
+  - popularity_d
+- content: (cloudy quartz \(mlp\):1.2), grey body, grey hair, aquamarine eyes, glasses, earth pony, female
+  weight: 1
+  labels:
+  - cloudy_quartz
+  - earth_pony
+  - female
+  - mother
+  - popularity_d
+- content: (juniper montage \(mlp\):1.2), cream body, green hair, blue eyes, glasses, female
+  weight: 1
+  labels:
+  - juniper_montage
+  - female
+  - eqg
+  - secondary
+  - popularity_d
+- content: (minty \(mlp\):1.2), light green body, pink hair, purple eyes, earth pony, female
+  weight: 1
+  labels:
+  - minty
+  - earth_pony
+  - female
+  - g3
+  - popularity_d
+- content: (pokey pierce \(mlp\):1.2), blue body, white hair, yellow eyes, unicorn, male
+  weight: 1
+  labels:
+  - pokey_pierce
+  - unicorn
+  - male
+  - ponyville
+  - background
+  - popularity_d
+- content: (stellar flare \(mlp\):1.2), orange body, red hair, green eyes, socks \(marking\), socks \(coat markings\), unicorn, female
+  weight: 1
+  labels:
+  - stellar_flare
+  - unicorn
+  - female
+  - mother
+  - secondary
+  - popularity_d
+- content: (alphabittle blossomforth \(mlp\):1.2), light blue body, white hair, magenta eyes, beard, unicorn, male
+  weight: 1
+  labels:
+  - alphabittle_blossomforth
+  - alphabittle
+  - unicorn
+  - male
+  - father
+  - g5
+  - popularity_d
+- content: (blossomforth \(mlp\):1.2), white body, green hair, pink hair, two tone hair, blue eyes, pegasus, female
+  weight: 1
+  labels:
+  - blossomforth
+  - pegasus
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (spring melody \(mlp\):1.2), (sprinkle medley \(mlp\):1.2), light green body, green hair, blue eyes, pegasus, female
+  weight: 1
+  labels:
+  - spring_melody
+  - sprinkle medley
+  - pegasus
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (night glider \(mlp\):1.2), dark blue body, white hair, blue eyes, pegasus, female
+  weight: 1
+  labels:
+  - night_glider
+  - pegasus
+  - female
+  - starlight_village
+  - secondary
+  - popularity_d
+- content: (micro chips \(mlp\):1.2), light purple body, blue hair, glasses, male
+  weight: 1
+  labels:
+  - micro_chips
+  - male
+  - eqg
+  - background
+  - popularity_d
+- content: (grogar \(mlp\):1.2), blue body, white hair, red eyes, horns, goat, ram, male
+  weight: 1
+  labels:
+  - grogar
+  - goat
+  - male
+  - antagonist
+  - popularity_d
+- content: (spoiled rich \(mlp\):1.2), pink body, purple hair, aquamarine eyes, earth pony, female
+  weight: 1
+  labels:
+  - spoiled_rich
+  - earth_pony
+  - female
+  - mother
+  - ponyville
+  - antagonist
+  - popularity_d
+- content: (ruby pinch \(mlp\):1.2), pink body, pink hair, green eyes, earth_pony, female
+  weight: 1
+  labels:
+  - ruby_pinch
+  - earth_pony
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (bow hothoof \(mlp\):1.2), light purple body, rainbow hair, multi-colored hair, pegasus, male
+  weight: 1
+  labels:
+  - bow_hothoof
+  - pegasus
+  - male
+  - father
+  - secondary
+  - cloudsdale
+  - popularity_d
+- content: (storm king \(mlp\):1.2), white body, armor, horns, sharp teeth, baboon, male
+  weight: 1
+  labels:
+  - storm_king
+  - male
+  - antagonist
+  - popularity_d
+- content: (iron will \(mlp\):1.2), blue body, blue hair, yellow eyes, horns, bull, minotaur, male
+  weight: 1
+  labels:
+  - iron_will
+  - minotaur
+  - male
+  - secondary
+  - popularity_d
+- content: (dizzy twister \(mlp\):1.2), (orange swirl \(mlp\):1.2), yellow body, pink hair, magenta eyes, pegasus, female
+  weight: 1
+  labels:
+  - dizzy_twister
+  - orange swirl
+  - pegasus
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (songbird serenade \(mlp\):1.2), cream body, black hair, blonde hair, two tone hair, hair over eyes, hair bow, pegasus, female
+  weight: 1
+  labels:
+  - songbird_serenade
+  - pegasus
+  - female
+  - canterlot
+  - background
+  - popularity_d
+- content: (rainbowshine \(mlp\):1.2), light purple body, pink hair, magenta eyes, pegasus, female
+  weight: 1
+  labels:
+  - rainbowshine
+  - pegasus
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (featherweight \(mlp\):1.2), cream body, brown hair, brown eyes, skinny, pegasus, male
+  weight: 1
+  labels:
+  - featherweight
+  - pegasus
+  - male
+  - ponyville
+  - secondary
+  - popularity_d
+- content: (cookie crumbles \(mlp\):1.2), purple body, blue hair, blue eyes, unicorn, female
+  weight: 1
+  labels:
+  - cookie_crumbles
+  - unicorn
+  - female
+  - mother
+  - ponyville
+  - popularity_d
+- content: (captain celaeno \(mlp\):1.2), cream body, green hair, orange eyes, parrot, furry, female
+  weight: 1
+  labels:
+  - captain_celaeno
+  - parrot
+  - female
+  - popularity_d
+- content: (vapor trail \(mlp\):1.2), white body, light green hair, aquamarine eyes, pegasus, female
+  weight: 1
+  labels:
+  - vapor_trail
+  - pegasus
+  - female
+  - wonderbolt
+  - cloudsdale
+  - popularity_d
+- content: (filthy rich \(mlp\):1.2), earth pony, brown body, black hair, blue eyes, earth pony, male
+  weight: 1
+  labels:
+  - filthy_rich
+  - earth_pony
+  - male
+  - ponyville
+  - secondary
+  - popularity_d
+- content: (blues \(mlp\):1.2), (noteworthy \(mlp\):1.2), blue body, blue hair, yellow eyes, earth pony, male
+  weight: 1
+  labels:
+  - blues
+  - noteworthy
+  - earth_pony
+  - male
+  - ponyville
+  - background
+  - popularity_d
+- content: (sassaflash \(mlp\):1.2), light green body, yellow hair, blonde hair, orange eyes, pegasus, female
+  weight: 1
+  labels:
+  - sassaflash
+  - pegasus
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (cherry jubilee \(mlp\):1.2), cream body, red hair, green eyes, earth pony, female
+  weight: 1
+  labels:
+  - cherry_jubilee
+  - earth_pony
+  - female
+  - secondary
+  - popularity_d
+- content: (sandalwood \(mlp\):1.2), tan body, green hair, green eyes, dreadlocks, male
+  weight: 1
+  labels:
+  - sandalwood
+  - male
+  - eqg
+  - secondary
+  - popularity_d
+- content: (lightning bolt \(mlp\):1.2), (white lightning \(mlp\):1.2), white body, blue hair, blue eyes, pegasus, female
+  weight: 1
+  labels:
+  - lightning_bolt
+  - white_lightning
+  - pegasus
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (the sphinx \(mlp\):1.2), magenta body, purple hair, yellow eyes, feline, sphinx, wings, female
+  weight: 1
+  labels:
+  - sphinx
+  - the_sphinx
+  - female
+  - antagonist
+  - popularity_d
+- content: (cinder glow \(mlp\):1.2), (summer flare \(mlp\):1.2), brown hair, green hair, yellow eyes, kirin, female
+  weight: 1
+  labels:
+  - cinder_glow
+  - summer_flare
+  - female
+  - kirin
+  - background
+  - popularity_d
+- content: (abacus cinch \(mlp\):1.2), white body, red hair, magenta eyes, glasses, female
+  weight: 1
+  labels:
+  - alabacus_cinch
+  - female
+  - eqg
+  - antagonist
+  - popularity_d
+- content: (sapphire shores \(mlp\):1.2), yellow body, blue hair, yellow eyes, eyeshadow, earth pony, female
+  weight: 1
+  labels:
+  - sapphire_shores
+  - earth_pony
+  - female
+  - celebrity
+  - secondary
+  - popularity_d
+- content: (hoity toity \(mlp\):1.2), grey body, white hair, purple eyes, sunglasses, earth pony, male
+  weight: 1
+  labels:
+  - hoity_toity
+  - earth_pony
+  - canterlot
+  - background
+  - popularity_d
+- content: (igneous rock pie \(mlp\):1.2), brown body, grey hair, yellow eyes, earth pony, male
+  weight: 1
+  labels:
+  - igneous_rock_pie
+  - clyde_pie
+  - earth_pony
+  - male
+  - father
+  - popularity_d
+- content: (watermelody \(mlp\):1.2), light pink body, green hair, purple eyes, red beret, female
+  weight: 1
+  labels:
+  - watermelody
+  - female
+  - eqg
+  - secondary
+  - popularity_d
+- content: (raven \(mlp\):1.2), white body, brown hair, brown eyes, glasses, unicorn, female
+  weight: 1
+  labels:
+  - raven
+  - raven_inkwell
+  - unicorn
+  - female
+  - canterlot
+  - background
+  - popularity_d
+- content: (writing desk \(mlp\):1.2), white body, brown hair, brown eyes, glasses, earth_pony, female
+  weight: 1
+  labels:
+  - writing_desk
+  - earth_pony
+  - female
+  - ponyville
+  - background
+  - popularity_d
+- content: (stygian \(mlp\):1.2), grey body, teal hair, aquamarine eyes, skinny, unicorn, male
+  weight: 1
+  labels:
+  - stygian
+  - unicorn
+  - male
+  - pillar
+  - secondary
+  - popularity_d
+- content: (neon lights \(mlp\):1.2), (rising star \(mlp\):1.2), grey body, brown hair, blue eyes, sunglasses, unicorn, male
+  weight: 1
+  labels:
+  - neon_lights
+  - rising_star
+  - unicorn
+  - male
+  - ponyville
+  - background
+  - popularity_d
+- content: (flash magnus \(mlp\):1.2), brown body, red hair, aquamarine eyes, armor, pegasus, male
+  weight: 1
+  labels:
+  - flash_magnus
+  - pegasus
+  - male
+  - pillar
+  - popularity_d
+- content: (meadowbrook \(mlp\):1.2), blue body, red hair, aquamarine eyes, earth pony, female
+  weight: 1
+  labels:
+  - meadowbrook
+  - earth_pony
+  - female
+  - pillar
+  - popularity_d
+- content: (rover \(mlp\):1.2), grey body, green eyes, canine, furry, diamond dog, male
+  weight: 1
+  labels:
+  - rover
+  - diamond_dog
+  - male
+  - antagonist
+  - popularity_d
+- content: (fido \(mlp\):1.2), grey body, yellow eyes, canine, furry, diamond dog, muscular, muscular male
+  weight: 1
+  labels:
+  - fido
+  - diamond_dog
+  - male
+  - antagonist
+  - popularity_d
+- content: (spot \(mlp\):1.2), tan body, yellow eyes, canine, furry, diamond dog, male
+  weight: 1
+  labels:
+  - spot
+  - diamond_dog
+  - male
+  - antagonist
+  - popularity_d
